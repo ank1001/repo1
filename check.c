@@ -5,7 +5,8 @@
 int main()
 {
     char str[10] = "loko";
-  	printf("the initialised string is %s\n",str);
+  	int i=0;
+	 printf("%lu",strlen(str));
     printf("%lu",strlen(str));
     return 0;
 }
